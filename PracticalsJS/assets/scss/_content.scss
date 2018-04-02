@@ -1,0 +1,59 @@
+
+/* ###################################################################################################
+Tab Block 
+SCSS
+ ###################################################################################################*/
+.tab-info
+{
+    margin: 50px auto;
+    h1{
+        text-align: center;
+    }
+
+        #tabs{
+            p{
+                margin: 10px 0;
+            }
+            ul{
+                text-align: center;
+                margin: 20px 0;
+                .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active a
+                {
+                    color: #000;
+                    background-color: #bfbfbf;
+                    font-weight: 700;
+                }
+                li{
+
+                    display: inline;
+                    padding: 0 10px;
+                    a{
+                        padding:10px 20px;
+                        color: #bfbfbf;
+                            font-weight: 700;
+                            &:hover{
+                                color: #000;   
+                                background-color: #bfbfbf;
+                        } 
+                    }
+                     
+                }
+            }
+            #li_tab3{
+                display: none;
+            }
+
+            #accordion{
+                border: 1px solid #000;
+                padding: 20px;
+                h3{
+                    cursor: pointer;
+                }
+                .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-header-active.ui-state-active.ui-accordion-icons{
+                    background-color: #bfbfbf;
+                }
+            }
+        }
+    
+  
+}
